@@ -1,0 +1,73 @@
+/* mobile */
+@media only screen and (max-width:724px){
+    #nav {
+        display: block;
+        
+        
+    }
+    #nav> li{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: initial;
+    }
+    #nav .subnav {
+        background-color: rgb(83, 81, 81);
+    }
+    #nav .subnav li a{
+        color: #fff;
+        padding: 0.125em 2.25em;
+    }
+    #content .member-item {
+        width: 100%;
+    }
+    #content .member-name {
+        margin: 0px;
+        padding: 0.9375em;
+    }
+    #contfulent .member-img {
+        padding-bottom:0.9375em;
+        width: 16.25em;
+    }
+    .place-item{
+        width: 100%;
+    }
+    .place-img{
+        height: auto;
+    }
+
+
+    #search-button{
+        display: none;
+  
+    }
+    .mobile-menu-btn{
+        display: block;
+    }
+    .row .col-ful{
+        width: 100%;
+        
+    }
+    .place-buy-btn{
+        width: 100%;
+    }
+    .contact-send-btn{
+        width: 100%;
+    }
+    input.from-control{
+        width: 100%;
+        margin: 0.1875em;
+    }
+    .col-full .from-control{
+        margin:0.1875em 0.1875em 0em 0.1875em;
+    }
+    .name-mail{
+        margin-top: 1.25em
+    }
+}
